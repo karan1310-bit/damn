@@ -1,26 +1,72 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer base {
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  @font-face {
+    font-family: "DM bold";
+    src: url("../public/fonts/DM-bold.woff2") format("woff2");
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  @font-face {
+    font-family: "DM regular";
+    src: url("../public/fonts/DM-regular.woff2") format("woff2");
+  }
+
+  @font-face {
+  font-family: "DM semi";
+  src: url("../public/fonts/DM-semi.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "Epi black";
+    src: url("../public/fonts/Epi-black.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "Epi italic";
+    src: url("../public/fonts/Epi-italic.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "Epi regular";
+    src: url("../public/fonts/Epi-regular.woff2") format("woff2");
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@theme {
+  --font-DMbold: "DM bold", sans-serif;
+}
+
+@theme {
+  --font-DMregular: "DM regular", sans-serif;
+}
+
+@theme {
+  --font-DMsemi: "DM semi", sans-serif;
+}
+
+@theme {
+  --font-Epiblack: "Epi black", sans-serif;
+}
+
+@theme {
+  --font-Epiitalic: "Epi italic", sans-serif;
+}
+
+@theme {
+  --font-Epiregular: "Epi regular", sans-serif;
+}
+
+/* Lenis base */
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
 }
