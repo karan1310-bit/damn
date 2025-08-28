@@ -1,10 +1,9 @@
 import Link from 'next/link';
 import React from 'react'
 
-const Deffect = ({ id, title, leftIcon, containerClass, rightIcon, link, textClass }) => {
+const Beffect = ({ id, title, leftIcon, containerClass, rightIcon, textClass }) => {
   return (
-    <Link 
-     href={`${link}`}>
+    <div>
     <button
       id={id}
       className={
@@ -24,8 +23,8 @@ const Deffect = ({ id, title, leftIcon, containerClass, rightIcon, link, textCla
 
       {rightIcon}
     </button>
-    </Link>
+    </div>
   );
 }
 
-export default Deffect
+export default Beffect;

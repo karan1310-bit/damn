@@ -1,4 +1,7 @@
 import React from "react";
+import Effect from "./Effect";
+import Beffect from "./Beffect";
+import Deffect from "./Deffect";
 
 const Hero = () => {
   return (
@@ -22,56 +25,31 @@ const Hero = () => {
           <h2 className="text-[20px] sm:text-[24px] text-left font-DMsemi">
             Contact
           </h2>
-          <address className="not-italic mt-1 text-[18px] sm:text-[20px] space-y-1">
-            <p>
-              <a
-                href="mailto:info@mirandabiondi.com"
-                className="no-underline hover:opacity-80"
-              >
-                info(at)mirandabiondi.com
-              </a>
-            </p>
-            <p>
-              <a
-                href="tel:+393661740402"
-                className="no-underline hover:opacity-80"
-              >
-                tel. +91 7225928721
-              </a>
-            </p>
-            <p>currently freelancing</p>
-          </address>
+          <ul className="not-italic mt-1 text-[18px] sm:text-[20px] space-y-1">
+            <li>
+              <Effect title="contact.karan131@gmail.com" link="mailto:contact.karan131@gmail.com" />
+            </li>
+            <li>
+              <Effect title="tel. +91 7225928721" link="tel:+91 7225928721" />
+            </li>
+            <li>
+              <Beffect title="currently freelancing" />
+            </li>
+          </ul>
 
           <h3 className="mt-6 text-[20px] sm:text-[24px] font-DMsemi">
             Social
           </h3>
           <ul className="mt-1 text-[18px] sm:text-[20px] space-y-1">
             <li>
-              ig.{" "}
-              <a
-                href="https://instagram.com/ddonnadesign"
-                className="no-underline hover:opacity-80"
-              >
-                /ddonnadesign
-              </a>
+              <Effect title="ig./ bhati_.01" link="https://www.instagram.com/bhati_.01?igsh=Z3VyZjlpYjh5Znc2" />
             </li>
             <li>
-              ln.{" "}
-              <a
-                href="https://www.linkedin.com/in/mirandabiondi"
-                className="no-underline hover:opacity-80"
-              >
-                /mirandabiondi
-              </a>
+              <Effect title="ln./ karansingh" link="https://www.linkedin.com/in/karan-singh-bhati-2b4888316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" />
             </li>
             <li>
-              be.{" "}
-              <a
-                href="https://www.behance.net/mirandabiondi"
-                className="no-underline hover:opacity-80"
-              >
-                /mirandabiondi
-              </a>
+              
+              <Effect title="git./ karan1310-bit" link="https://github.com/karan1310-bit" />
             </li>
           </ul>
         </div>
@@ -83,21 +61,14 @@ const Hero = () => {
           </h1>
 
           <p className="mt-8 sm:mt-2 text-neutral-900 max-w-[1250px] text-xl sm:text-2xl md:text-[26px] leading-tight">
-            Not just makers. Campaign creators. Visual disruptors. Not just
-            makers. Campaign creators. Visual disruptors. Not just makers.
-            Campaign creators. Visual disruptors.
+           I help growing brands and startups gain an unfair advantage through premium, results driven websites.
           </p>
 
           <div className="mt-10 sm:mt-6 flex items-center justify-between">
-            <a
-              href="#work"
-              className="group inline-block text-[15px] sm:text-base font-medium"
-            >
-              <span className="relative">
-                Explore Services
-                <span className="block mt-0 h-[1px] w-36 bg-black transition-opacity group-hover:opacity-70" />
+            <span className="relative">
+                 <Deffect title="Explore Services" link="#work" />
+                <span className="block mt-0 h-[1px] w-32 bg-black transition-opacity group-hover:opacity-70" />
               </span>
-            </a>
 
             <span className="text-[13px] sm:text-sm text-neutral-700">
               (Scroll)
@@ -118,15 +89,14 @@ const Hero = () => {
             Not just makers. Campaign creators. Visual disruptors. Not just makers. Campaign creators. Visual disruptors. 
           </p>
           <div className="mt-4 flex items-center justify-between">
-            <a
-              href="#work"
+            <div
               className="group inline-block text-[15px] sm:text-base font-medium"
             >
               <span className="relative">
-                Explore Services
+                 <Deffect title="Explore Services" link="#work" />
                 <span className="block mt-0 h-[1px] w-28 bg-black transition-opacity group-hover:opacity-70" />
               </span>
-            </a>
+            </div>
 
             
           </div>
@@ -138,32 +108,15 @@ const Hero = () => {
             Social
           </h3>
           <ul className="mt-1 text-sm space-y-0">
-            <li>
-              ig.{" "}
-              <a
-                href="https://instagram.com/ddonnadesign"
-                className="no-underline hover:opacity-80"
-              >
-                /ddonnadesign
-              </a>
+             <li>
+              <Effect title="ig./ bhati_.01" link="https://www.instagram.com/bhati_.01?igsh=Z3VyZjlpYjh5Znc2" />
             </li>
             <li>
-              ln.{" "}
-              <a
-                href="https://www.linkedin.com/in/mirandabiondi"
-                className="no-underline hover:opacity-80"
-              >
-                /mirandabiondi
-              </a>
+              <Effect title="ln./ karansingh" link="https://www.linkedin.com/in/karan-singh-bhati-2b4888316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" />
             </li>
             <li>
-              be.{" "}
-              <a
-                href="https://www.behance.net/mirandabiondi"
-                className="no-underline hover:opacity-80"
-              >
-                /mirandabiondi
-              </a>
+              
+              <Effect title="git./ karan1310-bit" link="https://github.com/karan1310-bit" />
             </li>
           </ul></div>
           <span className="text-[13px] sm:text-sm text-neutral-700">
