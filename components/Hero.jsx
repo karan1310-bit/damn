@@ -21,13 +21,19 @@ const Hero = () => {
       const tl = gsap.timeline({ paused: true, defaults: { ease: "power4.out" } });
 
       tl.to(".tagline-child", { yPercent: 0, autoAlpha: 1, filter: "blur(0px)", duration: 1.0, stagger: 0.08 }, 0)
-        .to(".h1-child",      { yPercent: 0, autoAlpha: 1, filter: "blur(0px)", duration: 1.05 }, "-=0.65")
+        .to(".h1-child, .h1m-child", {
+  yPercent: 0,
+  autoAlpha: 1,
+  filter: "blur(0px)",
+  duration: 1.0,
+  stagger: 0.08, // lets mobile's two lines flow one after the other
+}, "-=0.65")
         .to(".box-blue-child",{ yPercent: 0, autoAlpha: 1, filter: "blur(0px)", duration: 1.05 }, "-=0.55")
         .to(".box-red-child", { yPercent: 0, autoAlpha: 1, filter: "blur(0px)", duration: 1.05 }, "-=0.85")
         .to(".pop-in",        { autoAlpha: 1, scale: 1, duration: 0.75, ease: "back.out(1.6)", stagger: 0.2 }, "-=0.35")
         .to(".pop-in",        { scale: 1.03, duration: 0.14, yoyo: true, repeat: 1, ease: "power1.out" }, "-=0.2");
 
-        tl.timeScale(1.5);
+        tl.timeScale(1.2);
       // 3) Reveal the section and start the timeline on the next frame
       requestAnimationFrame(() => {
         if (rootRef.current) gsap.set(rootRef.current, { opacity: 1, autoAlpha: 1 });
@@ -58,11 +64,27 @@ const Hero = () => {
         </div>
 
         {/* H1 reveal */}
-        <div className="overflow-hidden">
-          <h1 className="h1-child reveal-child text-[19vw] mt-3 md:mt-2 md:text-[10.6vw] uppercase text-center font-DMbold">
-            Design Engineer
-          </h1>
-        </div>
+        {/* H1 (desktop single line) */}
+<div className="overflow-hidden hidden md:block">
+  <h1 className="h1-child reveal-child text-[19vw] mt-3 md:mt-2 md:text-[10.6vw] uppercase text-center font-DMbold">
+    Design Engineer
+  </h1>
+</div>
+
+{/* H1 (mobile split into two masked lines) */}
+<div className="md:hidden mt-3">
+  <div className="overflow-hidden">
+    <h1 className="h1m-child reveal-child text-[18vw] uppercase text-center font-DMbold leading-[0.9]">
+      Design
+    </h1>
+  </div>
+  <div className="overflow-hidden -mt-1">
+    <h1 className="h1m-child reveal-child text-[18vw] uppercase text-center font-DMbold leading-[0.9]">
+      Engineer
+    </h1>
+  </div>
+</div>
+
       </div>
 
       {/* POPPING SVG #1 */}
