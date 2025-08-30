@@ -165,16 +165,16 @@ export default function About() {
             {/* Card 1 */}
             <article className="polaroid will-change-transform relative shrink-0 w-[140px] md:w-[240px] h-[180px] md:h-[280px] z-[3]" style={{ marginRight: '-10px' }}>
               <div className="pop-in relative md:mt-2 mx-auto h-full w-full rotate-[-7deg] overflow-hidden rounded-xl shadow-xl ring-1 ring-black/10">
-                <Image src="/me/3.jpg" alt="yo" fill className="object-cover" sizes="(max-width: 768px) 260px, 320px" priority />
-                <span className="badge absolute left-1 bottom-1 md:left-4 md:bottom-4 rounded-full bg-[#FFB6CE] px-1 md:px-3 py-1 text-[10px] sm:text-sm font-medium text-black shadow-sm">waiting for coldplay!</span>
+                <Image src="/me/1.jpg" alt="yo" fill className="object-cover" sizes="(max-width: 768px) 260px, 320px" priority />
+                <span className="badge absolute left-1 bottom-1 md:left-4 md:bottom-4 rounded-full bg-[#FFB6CE] px-1 md:px-3 py-1 text-[10px] sm:text-sm font-medium text-black shadow-sm">yeah it's heavy!</span>
               </div>
             </article>
 
             {/* Card 2 (hidden on mobile) */}
             <article className="polaroid will-change-transform hidden md:block relative shrink-0 w-[120px] md:w-[240px] h-[200px] md:h-[290px] z-[2]" style={{ marginLeft: '-16px', marginRight: '-8px' }}>
               <div className="pop-in relative mx-auto mt-20 h-full w-full rotate-[6deg] overflow-hidden rounded-xl shadow-xl ring-1 ring-black/10">
-                <Image src="/me/8.jpg" alt="Studio shoot" fill className="object-cover object-top" sizes="(max-width: 768px) 210px, 250px" />
-                <span className="badge absolute left-1 bottom-2 rounded-full bg-[#FF7447] px-3 py-1 text-xs sm:text-sm font-semibold text-black shadow-sm">wtf i'm doing here!</span>
+                <Image src="/me/12.jpg" alt="Studio shoot" fill className="object-cover" sizes="(max-width: 768px) 210px, 250px" />
+                <span className="badge absolute left-2 bottom-2 rounded-full bg-[#FF7447] px-3 py-1 text-xs sm:text-sm font-semibold text-black shadow-sm">Coldplay!</span>
               </div>
             </article>
 
@@ -182,15 +182,15 @@ export default function About() {
             <article className="polaroid will-change-transform relative shrink-0 w-[140px] sm:w-[250px] md:w-[240px] h-[180px] sm:h-[280px] md:h-[280px] z-[4]" style={{ marginLeft: '-10px', marginRight: '-12px' }}>
               <div className="pop-in relative mx-auto mt-12 md:mt-0 h-full w-full rotate-[8deg] md:rotate-[-6deg] overflow-hidden rounded-xl shadow-xl ring-1 ring-black/10">
                 <Image src="/me/7.jpg" alt="Campaign BTS" fill className="object-cover" sizes="(max-width: 768px) 210px, 250px" />
-                <span className="badge absolute left-3 top-1 md:left-4 md:top-4 rounded-full bg-[#82A0FF] px-3 py-1 text-[10px] sm:text-sm font-medium text-black shadow-sm">on the top!!</span>
+                <span className="badge absolute left-3 top-1 md:left-4 md:top-4 rounded-full bg-[#82A0FF] px-3 py-1 text-[10px] sm:text-sm font-medium text-black shadow-sm">just breath!!</span>
               </div>
             </article>
 
             {/* Card 4 */}
             <article className="polaroid will-change-transform relative shrink-0 w-[130px] sm:w-[250px] md:w-[240px] h-[180px] sm:h-[280px] md:h-[280px] z-[1]" style={{ marginLeft: '-14px' }}>
               <div className="pop-in relative mx-auto md:mt-16 h-full w-full rotate-[-5deg] md:rotate+[6deg] overflow-hidden rounded-xl shadow-xl ring-1 ring-black/10">
-                <Image src="/me/5.jpg" alt="Awards night" fill className="object-cover" sizes="(max-width: 768px) 200px, 240px" />
-                <span className="badge absolute left-1 bottom-2 md:left-4 md:bottom-4 rounded-full bg-[#9BEB8A] px-3 py-1 text-[10px] sm:text-sm font-medium text-black shadow-sm">carrying logs!</span>
+                <Image src="/me/9.jpg" alt="Awards night" fill className="object-cover" sizes="(max-width: 768px) 200px, 240px" />
+                <span className="badge absolute left-1 bottom-2 md:left-4 md:bottom-4 rounded-full bg-[#9BEB8A] px-3 py-1 text-[10px] sm:text-sm font-medium text-black shadow-sm">tryna look cool!!</span>
               </div>
             </article>
           </div>
