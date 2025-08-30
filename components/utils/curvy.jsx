@@ -50,7 +50,7 @@ export default function CurvyArrow({
   }, [delay, duration]);
 
   return (
-    <div className={`pointer-events-none rotate-45 ${className}`}>
+    <div className={`pointer-events-none overflow-hidden rotate-45 ${className}`}>
       {/* Start hidden at FIRST PAINT to prevent flash */}
       <svg
         ref={svgRef}

@@ -102,7 +102,7 @@ export default function Header({
   return (
     <div
       ref={navContainerRef}
-      className="opacity-0 fixed inset-x-2 top-2 md:top-3 z-40 h-14 sm:h-16 border-none bg-[#F0EBE6] text-[#080807] font-DMregular transition-all duration-700 md:inset-x-6"
+      className="opacity-0 fixed inset-x-2 top-2 overflow-hidden md:top-3 z-40 h-14 sm:h-16 border-none bg-[#F0EBE6] text-[#080807] font-DMregular transition-all duration-700 md:inset-x-6"
       style={{ backfaceVisibility: 'hidden' }}
     >
       <header className="glass-chrome absolute top-1/2 w-full -translate-y-1/2">

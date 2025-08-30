@@ -144,7 +144,7 @@ export default function About() {
   }, []);
 
   return (
-    <section ref={rootRef} id="about" className="flex items-center bg-[#F0EBE6] justify-center px-4 py-12 font-DMsemi">
+    <section ref={rootRef} id="about" className="flex overflow-hidden items-center bg-[#F0EBE6] justify-center px-4 py-12 font-DMsemi">
       <div className="w-full max-w-5xl text-center">
         {/* H1 (no scroll text animation; renders as-is) */}
         <h1 className="text-[clamp(2rem,5vw,3.7rem)] leading-[1.05] tracking-tight">
@@ -197,7 +197,7 @@ export default function About() {
         </div>
 
         {/* Paragraph (no scroll text animation; renders as-is) */}
-        <p className="mt-6 md:mt-16 text-center font-DMregular text-md md:text-2xl text-neutral-800 max-w-xs md:max-w-3xl mx-auto leading-snug">
+        <p className="mt-4 md:mt-16 text-center font-DMregular text-md md:text-2xl text-neutral-800 max-w-xs md:max-w-3xl mx-auto leading-snug">
           A design engineer making internet things that actually slap
           strategy first, pixels second, vibes always.
           <br className='md:hidden'/>need a launch-ready identity or a scroll-stopping landing? i’m your guy.
