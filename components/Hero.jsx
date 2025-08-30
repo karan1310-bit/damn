@@ -47,7 +47,7 @@ const Hero = () => {
   return (
     <section
       ref={rootRef}
-      className="opacity-0 min-h-screen w-full px-4 md:px-10 py-4 bg-[#FCFCFC] overflow-hidden relative text-[#080807] font-DMregular"
+      className="opacity-0 min-h-screen w-full px-4 md:px-10 py-4 bg-[#F0EBE6] overflow-hidden relative text-[#080807] font-DMregular"
     >
       <div className="flex flex-col mt-16 md:mt-24 leading-[0.9]">
         {/* Tagline row with per-word masks */}

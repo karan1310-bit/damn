@@ -6,11 +6,12 @@ import SmoothScroll from "@/components/SmoothScroll";
 
 export default function Home() {
   return (
-   <main className="min-h-screen w-full bg-[#FCFCFC] text-[#080807]">
+   <main className="min-h-screen w-full bg-[#F0EBE6] text-[#080807]">
      <SmoothScroll />
     <Header />
     <Hero />
     <About />
+    <div className="h-screen"></div>
    </main>
   );
 }
