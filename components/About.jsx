@@ -147,17 +147,12 @@ export default function About() {
     <section ref={rootRef} id="about" className="flex items-center bg-[#F0EBE6] justify-center px-4 py-12 font-DMsemi">
       <div className="w-full max-w-5xl text-center">
         {/* H1 (no scroll text animation; renders as-is) */}
-        <h1 className="text-[clamp(2.2rem,6vw,3.7rem)] leading-[1.05] tracking-tight">
-          <span className="block">Your brand's<span> main character.</span></span>
-          <span className="block">
-             Turning viewers into devotees.
-            <br />
-            <span className="relative inline-block italic font-Epiitalic ml-3 sm:ml-0"> let's work</span>
-          </span>
+        <h1 className="text-[clamp(2rem,5vw,3.7rem)] leading-[1.05] tracking-tight">
+          Your brand's main character. turning viewers into devotees.
         </h1>
 
         {/* ===== Gallery ===== */}
-        <div ref={galleryRef} className="relative min-h-[40vh] md:min-h-[55vh] overflow-visible mx-auto mt-12 w-full">
+        <div ref={galleryRef} className="relative min-h-[40vh] md:min-h-[55vh] overflow-visible mx-auto mt-16 w-full">
           {/* Decorative POPPING SVGs (pop-in on view) */}
           <div className="absolute hidden md:block ml-[70vw] md:ml-[60vw] z-6 pt-48 md:pt-0">
             <img src="/svg/camera.svg" className="pop-in h-20 w-20 md:h-40 md:w-40 rotate-12 md:-rotate-6" alt="Camera" />
