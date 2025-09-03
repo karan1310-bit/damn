@@ -81,12 +81,12 @@ export default function SoftDropHero() {
       const isTablet = W >= 640 && W < 1024;
 
       if (isMobile) {
-        CONFIG.MIN_R = 30;
-        CONFIG.MAX_R = 35;
+        CONFIG.MIN_R = 26;
+        CONFIG.MAX_R = 30;
         CONFIG.MOUSE_RADIUS = 120;
         CONFIG.MOUSE_FORCE = 1100;
-        CONFIG.TARGET_MIN = 15;
-        CONFIG.TARGET_MAX = 20;
+        CONFIG.TARGET_MIN = 10;
+        CONFIG.TARGET_MAX = 16;
         CONFIG.G = 2000;
         CONFIG.REST = 0.6; // gentler bounces for small pieces
       } else if (isTablet) {
