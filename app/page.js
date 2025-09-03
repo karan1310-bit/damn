@@ -1,5 +1,6 @@
 
 import About from "@/components/About";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Header from "@/components/Navbar";
 import SmoothScroll from "@/components/SmoothScroll";
@@ -13,6 +14,7 @@ export default function Home() {
     <Hero />
     <About />
     <WorkSection />
+    <Footer />
    </main>
   );
 }
