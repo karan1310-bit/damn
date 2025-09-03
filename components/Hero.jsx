@@ -88,7 +88,7 @@ const Hero = () => {
       </div>
 
       {/* POPPING SVG #1 */}
-      <div className="absolute ml-[45vw] md:ml-[21vw] z-2 pt-64 md:pt-12">
+      <div className="absolute ml-[45vw] md:ml-[21vw] z-2 pt-68 md:pt-12">
         <img
           src="/svg/lets-go.svg"
           className="pop-in h-24 w-24 md:h-52 md:w-52 rotate-12 md:-rotate-6"

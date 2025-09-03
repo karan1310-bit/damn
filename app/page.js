@@ -3,6 +3,7 @@ import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Header from "@/components/Navbar";
 import SmoothScroll from "@/components/SmoothScroll";
+import WorkSection from "@/components/Work";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
     <Header />
     <Hero />
     <About />
-    <div className="h-screen"></div>
+    <WorkSection />
    </main>
   );
 }
