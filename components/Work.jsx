@@ -27,7 +27,7 @@ export default function WorkSection() {
         <div className="mt-7 grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Card 1 */}
           <article className="rounded-[28px] bg-[#0F0F10] text-white ring-1 ring-neutral-800/70 overflow-hidden">
-            <div className="p-6">
+            <div className="p-4 md:p-6">
               <div className="overflow-hidden rounded-2xl ring-1 ring-neutral-800">
                 <Image
                   src="/images/3.jpg"
@@ -43,15 +43,15 @@ export default function WorkSection() {
               <div className="mt-4 font-DMregular">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
-                    <div className="grid place-items-center h-9 w-9 rounded-full bg-neutral-800 ring-1 ring-neutral-700/60">
+                    <div className="grid place-items-center h-7 w-7 rounded-full bg-neutral-800 ring-1 ring-neutral-700/60">
                       {/* avatar placeholder */}
                       <span className="text-[18px]">🍩</span>
                     </div>
-                    <h3 className="text-lg font-DMsemi tracking-tight">
-                      JAZMIN WONG
+                    <h3 className="text-md md:text-lg font-DMsemi tracking-tight">
+                      SLEEKFRAME
                     </h3>
                   </div>
-                  <div className="flex items-center gap-6 text-sm">
+                  <div className="flex items-center gap-6 text-xs md:text-sm">
                     <span className="font-DMsemi tracking-wider">
                       PORTFOLIO
                     </span>
@@ -59,13 +59,13 @@ export default function WorkSection() {
                   </div>
                 </div>
 
-                <div className="mt-3 text-[12px] font-DMregular tracking-[0.08em] text-neutral-300">
+                <div className="mt-3 text-[11px] md:text-[12px] font-DMregular tracking-[0.08em] text-neutral-300">
                   <div className="min-w-max">
                     <span className="mr-4">GSAP</span>
                     <span className="mr-4">TAILWIND CSS</span>
                     <span className="mr-4">LENIS</span>
-                    <span className="mr-4">VERCEL</span>
                     <span className="mr-4">ART DIRECTION</span>
+                    <span className="mr-4">Design</span>
                   </div>
                 </div>
               </div>
@@ -74,7 +74,7 @@ export default function WorkSection() {
 
           {/* Card 2 */}
           <article className="rounded-[28px] bg-[#0F0F10] text-white ring-1 ring-neutral-800/70 overflow-hidden">
-            <div className="p-6">
+            <div className="p-4 md:p-6">
               <div className="overflow-hidden rounded-2xl ring-1 ring-neutral-800">
                 <Image
                   src="/images/1.jpg"
@@ -86,31 +86,32 @@ export default function WorkSection() {
               </div>
 
               {/* footer */}
-              <div className="mt-4">
+             <div className="mt-4 font-DMregular">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
-                    <div className="grid place-items-center h-9 w-9 rounded-full bg-neutral-800 ring-1 ring-neutral-700/60">
-                      {/* icon placeholder */}
-                      <span className="text-[18px]">✚</span>
+                    <div className="grid place-items-center h-7 w-7 rounded-full bg-neutral-800 ring-1 ring-neutral-700/60">
+                      {/* avatar placeholder */}
+                      <span className="text-[18px]">🍩</span>
                     </div>
-                    <h3 className="text-lg font-DMsemi tracking-tight">
-                      TRACKSTACK
+                    <h3 className="text-md md:text-lg font-DMsemi tracking-tight">
+                      DISCODEN
                     </h3>
                   </div>
-                  <div className="flex items-center gap-6 text-sm">
-                    <span className="font-DMsemi tracking-wider">PRODUCT</span>
+                  <div className="flex items-center gap-6 text-xs md:text-sm">
+                    <span className="font-DMsemi tracking-wider">
+                      PRODUCT
+                    </span>
                     <span className="font-DMsemi tracking-wider">2025</span>
                   </div>
                 </div>
 
-                <div className="mt-3 text-[12px] font-DMregular tracking-[0.08em] text-neutral-300">
+                <div className="mt-3 text-[11px] md:text-[12px] font-DMregular tracking-[0.08em] text-neutral-300">
                   <div className="min-w-max">
-                    <span className="mr-4">BRAND DESIGN</span>
-                    <span className="mr-4">STRATEGY</span>
-                    <span className="mr-4">UX</span>
-                    <span className="mr-4">UI</span>
-                    <span className="mr-4">WEB DESIGN</span>
-                    <span className="mr-4">MEDIA PRODUCTION</span>
+                    <span className="mr-4">GSAP</span>
+                    <span className="mr-4">TAILWIND CSS</span>
+                    <span className="mr-4">LENIS</span>
+                    <span className="mr-4">ART DIRECTION</span>
+                    <span className="mr-4">Design</span>
                   </div>
                 </div>
               </div>
