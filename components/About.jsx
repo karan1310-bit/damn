@@ -147,7 +147,7 @@ export default function About() {
     <section ref={rootRef} id="about" className="flex overflow-hidden items-center bg-[#F0EBE6] justify-center px-4 py-12 font-DMsemi">
       <div className="w-full max-w-5xl text-center">
         {/* H1 (no scroll text animation; renders as-is) */}
-        <h1 className="text-[clamp(2rem,5vw,3.7rem)] leading-[1.05] tracking-tight">
+        <h1 className="text-[clamp(2rem,5vw,3.7rem)] leading-[1.05] tracking-tight font-DMsemi">
           Your brand's main character. turning viewers into devotees.
         </h1>
 
