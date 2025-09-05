@@ -32,21 +32,21 @@ export default function Card({
         }}
         className="
           relative flex flex-col items-start justify-center origin-center transform-gpu
-          h-[400px] w-[300px] md:h-[400px] md:w-[720px] max-w-[88vw]
-          rounded-[28px] p-7 md:p-10
+          h-[380px] w-[280px] md:h-[400px] md:w-[720px] max-w-[88vw]
+          rounded-3xl p-7 md:p-10
           shadow-[0_8px_28px_rgba(0,0,0,0.12)]
           will-change-transform
         "
       >
         {/* sticker image */}
-        <div className="absolute -top-5 right-2 md:-top-7 md:right-2 select-none">
+        <div className="absolute -top-7 right-2 md:-top-7 md:right-2 select-none">
           {stickerSrc ? (
             <Image
               src={stickerSrc}
               alt={stickerAlt}
               width={64}
               height={64}
-              className="h-24 w-24 md:h-32 md:w-32 object-contain"
+              className="h-28 w-28 md:h-32 md:w-32 object-contain"
               priority={i === 0}
             />
           ) : (

@@ -1,7 +1,7 @@
 
 import About from "@/components/About";
 import Parallax from "@/components/cards/Parallax";
-import Contact from "@/components/FFooter";
+import GetInTouch from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Header from "@/components/Navbar";
 import SmoothScroll from "@/components/SmoothScroll";
@@ -16,6 +16,7 @@ export default function Home() {
     <About />
     <WorkSection />
     <Parallax />
+    <GetInTouch />
    </main>
   );
 }

@@ -26,7 +26,7 @@ export default function WorkSection() {
         {/* ─── Cards grid ───────────────────────────────────────────── */}
         <div className="mt-7 grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Card 1 */}
-          <article className="rounded-[28px] bg-[#0F0F10] text-white ring-1 ring-neutral-800/70 overflow-hidden">
+          <article className="rounded-2xl bg-[#0F0F10] text-white ring-1 ring-neutral-800/70 overflow-hidden">
             <div className="p-4 md:p-6">
               <div className="overflow-hidden rounded-2xl ring-1 ring-neutral-800">
                 <Image
@@ -59,7 +59,7 @@ export default function WorkSection() {
                   </div>
                 </div>
 
-                <div className="mt-3 text-[11px] md:text-[12px] font-DMregular tracking-[0.08em] text-neutral-300">
+                <div className="mt-3 text-[10px] md:text-[14px] font-DMregular tracking-[0.08em] text-neutral-300">
                   <div className="min-w-max">
                     <span className="mr-4">GSAP</span>
                     <span className="mr-4">TAILWIND CSS</span>
@@ -73,7 +73,7 @@ export default function WorkSection() {
           </article>
 
           {/* Card 2 */}
-          <article className="rounded-[28px] bg-[#0F0F10] text-white ring-1 ring-neutral-800/70 overflow-hidden">
+          <article className="rounded-2xl bg-[#0F0F10] text-white ring-1 ring-neutral-800/70 overflow-hidden">
             <div className="p-4 md:p-6">
               <div className="overflow-hidden rounded-2xl ring-1 ring-neutral-800">
                 <Image
@@ -105,7 +105,7 @@ export default function WorkSection() {
                   </div>
                 </div>
 
-                <div className="mt-3 text-[11px] md:text-[12px] font-DMregular tracking-[0.08em] text-neutral-300">
+                <div className="mt-3 text-[10px] md:text-[14px] font-DMregular tracking-[0.08em] text-neutral-300">
                   <div className="min-w-max">
                     <span className="mr-4">GSAP</span>
                     <span className="mr-4">TAILWIND CSS</span>
