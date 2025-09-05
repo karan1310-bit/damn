@@ -9,7 +9,7 @@ import React, { useEffect, useRef, useState } from "react";
  * - Micro velocity clamp + exact floor snap
  * - Keeps previous scroll + footer behavior
  */
-export default function SoftDropHero() {
+export default function Footer() {
   const BG = "#F0EBE6";
 
   const sectionRef = useRef(null);
@@ -391,7 +391,7 @@ export default function SoftDropHero() {
   return (
     <section
       ref={sectionRef}
-      className="relative isolate w-full text-neutral-900 overflow-visible"
+      className="relative isolate w-full min-h-screen text-neutral-900 overflow-visible"
       style={{ backgroundColor: "#F0EBE6", touchAction: "pan-y" }}
     >
       {/* Canvas layer (80vh area) */}
@@ -406,11 +406,11 @@ export default function SoftDropHero() {
         </div>
 
         {/* Bottom fade into footer */}
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-[#F0EBE6]" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 md:h-12 bg-gradient-to-b from-transparent to-[#F0EBE6]" />
       </div>
 
       {/* Footer band placeholder (30vh) */}
-     <div className="relative z-10 h-[20vh] bg-gradient-to-b from-[#F0EBE6] via-[#F0EBE6] to-[#F0EBE6]">
+     <div className="relative z-10 h-[30vh] md:h-[20vh] bg-gradient-to-b from-[#F0EBE6] via-[#F0EBE6] to-[#F0EBE6]">
   <div className="h-full px-4 sm:px-6 lg:px-8 flex items-end">
     <footer className="w-full pb-6 text-neutral-800/80" role="contentinfo">
       <div className="flex flex-col w-full gap-4 sm:flex-row sm:items-center sm:justify-between">
