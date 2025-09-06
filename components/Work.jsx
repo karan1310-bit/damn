@@ -10,7 +10,7 @@ import React from "react";
  */
 export default function WorkSection() {
   return (
-    <section className="w-full bg-[#F0EBE6]">
+    <section className="w-full bg-[#F0EBE6]" id="work">
       <div className="relative px-4 sm:px-6 md:px-10 pb-8 pt-8 font-DMregular">
 
         {/* ─── Jumbo headline row ───────────────────────────────────── */}
@@ -30,7 +30,7 @@ export default function WorkSection() {
             <div className="p-4 md:p-6">
               <div className="overflow-hidden rounded-2xl ring-1 ring-neutral-800">
                 <Image
-                  src="/images/3.jpg"
+                  src="/images/s3.png"
                   alt="Coffee, bouquet and pink bag on a black table"
                   width={1400}
                   height={940}
@@ -60,12 +60,14 @@ export default function WorkSection() {
                 </div>
 
                 <div className="mt-3 text-[10px] md:text-[14px] font-DMregular tracking-[0.08em] text-neutral-300">
-                  <div className="min-w-max">
+                  <div className="min-w-max uppercase">
                     <span className="mr-4">GSAP</span>
                     <span className="mr-4">TAILWIND CSS</span>
-                    <span className="mr-4">LENIS</span>
+                    <span className="mr-4">Next.js</span>
+                    <span className="mr-4">Social media</span>
                     <span className="mr-4">ART DIRECTION</span>
                     <span className="mr-4">Design</span>
+                    <span className="mr-4">Marketing</span>
                   </div>
                 </div>
               </div>
@@ -106,12 +108,12 @@ export default function WorkSection() {
                 </div>
 
                 <div className="mt-3 text-[10px] md:text-[14px] font-DMregular tracking-[0.08em] text-neutral-300">
-                  <div className="min-w-max">
+                  <div className="min-w-max uppercase">
                     <span className="mr-4">GSAP</span>
                     <span className="mr-4">TAILWIND CSS</span>
-                    <span className="mr-4">LENIS</span>
-                    <span className="mr-4">ART DIRECTION</span>
                     <span className="mr-4">Design</span>
+                    <span className="mr-4">Animations</span>
+                    <span className="mr-4">UX research</span>
                   </div>
                 </div>
               </div>

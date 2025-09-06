@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Deffect from './Deffect';
 import Effect from './Effect';
+import Beffect from './Beffect';
 
 export default function GetInTouch() {
   const [time, setTime] = useState('');
@@ -28,7 +29,7 @@ export default function GetInTouch() {
 
   return (
     <section
-      aria-labelledby="get-in-touch-title"
+      aria-labelledby="get-in-touch-title" id='footer'
       className="relative overflow-hidden bg-[#F0EBE6] text-[#080807] font-DMsemi"
     >
 
@@ -50,25 +51,17 @@ export default function GetInTouch() {
         </div>
 
         {/* 3-column lists */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-20 md:gap-10 mt-8 md:mt-12 lg:gap-14">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 md:gap-10 mt-8 md:mt-12 lg:gap-14">
               {/* Left: get in touch */}
               <div className="lg:col-span-6 text-center md:text-left">
-                <p className="hidden md:block text-left text-base md:text-lg text-neutral-600 mb-2">contact</p>
-                <Link
-                  href="mailto:contact.sleekframe@gmail.com?subject=Quick%2010-min%20call%20about%20my%20project&body=Hi%20SleekFrame%2C%20I%20just%20saw%20your%20work%20and%20loved%20it.%20I%27d%20love%20to%20book%20a%2010-minute%20call%20to%20discuss%20my%20project.%20Thanks!"
-                  className="block text-[5vw] sm:text-[6vw] lg:text-[2rem] text-neutral-900 font-DMsemi tracking-tight hover:opacity-90"
-                >
-                  <span className="relative inline-block pr-2 border-b-2">
-                    contact.karan131@gmail.com
-                    {/* Animated underline */}
-                   
-                  </span>
-                </Link>
+                <p className="hidden md:block text-left text-base md:text-lg text-neutral-600 mb-2">let's make some good shit</p>
+                
+                <Effect title="contact.karan131@gmail.com" link="mailto:contact.karan131@gmail.com" textClass="block text-[5vw] sm:text-[6vw] lg:text-[2rem] text-neutral-900 font-DMsemi tracking-tight hover:opacity-90" />
               </div>
 
               {/* Right: link columns */}
               <nav className="lg:col-span-6">
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-6 text-base md:text-lg leading-7">
+                <div className="grid grid-cols-2 md:grid-cols-3 px-4  gap-x-10 gap-y-6 text-base md:text-lg leading-7">
                   <ul className="md:space-y-1 font-DMregular">
                     <li>
                       <Deffect title="Home" link="#home" />
@@ -87,27 +80,27 @@ export default function GetInTouch() {
 
                   <ul className="text-right md:text-left md:space-y-1 font-DMregular">
                     <li>
-                      <Effect title="Instagram" link="https://www.instagram.com/sleekframestudios?igsh=MWI3enl0a2dneHhucA%3D%3D" />
+                      <Effect title="Instagram" link="https://www.instagram.com/bhati_.01?igsh=Z3VyZjlpYjh5Znc2" />
                     </li>
                     <li>
-                      <Effect title="WhatsApp" link="https://wa.me/+917225928721?text=Hi%20SleekFrame%2C%20I%20just%20saw%20your%20work%20and%20loved%20it.%20I%27d%20love%20to%20book%20a%2010-minute%20call%20to%20discuss%20my%20project." />
+                      <Effect title="WhatsApp" link="https://wa.me/+917225928721" />
                     </li>
                   
                     <li>
-                      <Effect title="LinkedIn" link="https://www.linkedin.com/company/sleekframestudios/" />
+                      <Effect title="LinkedIn" link="https://www.linkedin.com/in/karan-singh-bhati-2b4888316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" />
                     </li>
                     <li>
-                      <Effect title="GitHub" link="https://github.com/sleekframestudios" />
+                      <Effect title="GitHub" link="https://github.com/karan1310-bit" />
                     </li>
                     
                   </ul>
 
                   <ul className="hidden md:block md:space-y-1 font-DMregular">
                     <li>
-                      <Effect title="+91 7225928721" link="mailto:contact.sleekframe@gmail.com" />
+                      <Effect title="+91 7225928721" link="tel:+91 7225928721" />
                     </li>
                     <li>
-                      <Effect title="Ujjain, India" link="mailto:contact.sleekframe@gmail.com" />
+                      <Beffect title="Ujjain India" />
                     </li>
                     {/* add more if needed */}
                   </ul>

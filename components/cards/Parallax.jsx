@@ -8,7 +8,7 @@ export default function Parallax() {
   const container = useRef(null);
 
   return (
-    <section className="w-full">
+    <section className="w-full" id='services'>
       <div className="mx-auto max-w-6xl px-6 pt-12 md:pt-24 pb-0 text-center">
         <h2 className="text-4xl md:text-7xl tracking-tight">
           <span className="lowercase font-DMsemi">call me if you </span>

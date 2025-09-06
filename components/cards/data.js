@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     key: 'social',
-    title: 'Web development',
+    title: 'Web dev',
     bullets: [
       'Next.js + Tailwind Builds',
       'CMS integration',
