@@ -110,9 +110,9 @@ export default function Header({
           {/* Brand */}
           <a href="#home" className="hdr-brand">
             <h2 className="text-base leading-[1.1] font-DMregular md:text-xl">
-              Karan <br className="md:hidden" />
-              <span className="font-DMregular text-xs md:text-lg text-gray-600">
-                (Web Designer &amp; Developer)
+              Karan 
+              <span className="font-DMregular ml-1 text-xs md:text-lg text-gray-600">
+                (Creative Developer)
               </span>
             </h2>
           </a>

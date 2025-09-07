@@ -33,7 +33,7 @@ const Hero = () => {
         .to(".pop-in",        { autoAlpha: 1, scale: 1, duration: 0.75, ease: "back.out(1.6)", stagger: 0.2 }, "-=0.35")
         .to(".pop-in",        { scale: 1.03, duration: 0.14, yoyo: true, repeat: 1, ease: "power1.out" }, "-=0.2");
 
-        tl.timeScale(1.2);
+        tl.timeScale(1.5);
       // 3) Reveal the section and start the timeline on the next frame
       requestAnimationFrame(() => {
         if (rootRef.current) gsap.set(rootRef.current, { opacity: 1, autoAlpha: 1 });
@@ -88,7 +88,7 @@ const Hero = () => {
       </div>
 
       {/* POPPING SVG #1 */}
-      <div className="absolute ml-[45vw] md:ml-[21vw] z-2 pt-68 md:pt-12">
+      <div className="absolute ml-[50vw] md:ml-[21vw] z-2 pt-64 md:pt-12">
         <img
           src="/svg/lets-go.svg"
           className="pop-in h-24 w-24 md:h-52 md:w-52 rotate-12 md:-rotate-6"
@@ -98,7 +98,7 @@ const Hero = () => {
       </div>
 
       {/* POPPING SVG #2 */}
-      <div className="absolute ml-[75vw] md:ml-[87vw] pt-4 z-2">
+      <div className="absolute ml-[75vw] md:ml-[87vw] pt-6 z-2">
         <img
           src="/svg/smiley.svg"
           className="pop-in h-16 w-16 md:h-28 md:w-28 -rotate-12 md:rotate-12"
@@ -154,22 +154,22 @@ const Hero = () => {
       </div>
 
       {/* MOBILE */}
-      <div className="flex flex-col md:hidden items-start pt-12 justify-between">
+      <div className="flex flex-col md:hidden items-start pt-14 justify-between">
         {/* RED BOX (Mobile) */}
         <div className="overflow-hidden">
           <div className="box-red-child reveal-child bg-[#E8464E] px-4 py-4 rounded-2xl" style={{ willChange: "transform, opacity", backfaceVisibility: "hidden" }}>
-            <h1 className="font-DMsemi leading-none tracking-[-0.01em] text-[8vw]">
+            <h1 className="font-DMsemi leading-none tracking-[-0.01em] text-[6.5vw]">
               <span className="block">Thinking Boldly.</span>
               <span className="block">Crafting Visually.</span>
             </h1>
 
-            <p className="mt-2 text-neutral-900 max-w-[100vw] text-lg leading-tight">
+            <p className="mt-3 text-neutral-900 max-w-[100vw] text-md leading-tight">
               Not just makers. Campaign creators. Visual disruptors. Not just makers. Campaign creators. Visual disruptors.
             </p>
-            <div className="mt-4 flex items-center justify-between">
-              <div className="group inline-block text-[15px] sm:text-base font-medium">
+            <div className="mt-3 flex items-center justify-between">
+              <div className="group inline-block text-sm sm:text-base font-medium">
                 <span className="relative">
-                  <Deffect title="Explore Services" link="#work" />
+                  <Deffect title="Explore Services" link="#services" />
                   <span className="block mt-0 h-[1px] w-28 bg-black transition-opacity group-hover:opacity-70" />
                 </span>
               </div>
@@ -182,7 +182,7 @@ const Hero = () => {
           <div className="overflow-hidden">
             <div className="box-blue-child reveal-child bg-[#82A0FF] rounded-2xl px-4 py-4" style={{ willChange: "transform, opacity", backfaceVisibility: "hidden" }}>
               <h3 className=" text-sm font-DMsemi">Social</h3>
-              <ul className="mt-1 text-sm space-y-0">
+              <ul className="mt-2 text-sm space-y-0">
                 <li><Effect title="ig./ bhati_.01" link="https://www.instagram.com/bhati_.01?igsh=Z3VyZjlpYjh5Znc2" /></li>
                 <li><Effect title="ln./ karansingh" link="https://www.linkedin.com/in/karan-singh-bhati-2b4888316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" /></li>
                 <li><Effect title="git./ karan1310-bit" link="https://github.com/karan1310-bit" /></li>
@@ -190,7 +190,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <CurvyArrow className="md:hidden max-w-[400px] mx-auto h-32 w-32 ml-12 mt-4" />
+          <CurvyArrow className="md:hidden max-w-[400px] mx-auto h-28 w-28 ml-16 mt-4" />
         </div>
       </div>
     </section>

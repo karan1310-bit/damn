@@ -197,10 +197,10 @@ export default function About() {
         </div>
 
         {/* Paragraph (no scroll text animation; renders as-is) */}
-        <p className="mt-4 md:mt-16 text-center font-DMregular text-md md:text-2xl text-neutral-800 max-w-xs md:max-w-3xl mx-auto leading-snug">
+        <p className="mt-4 md:mt-16 text-center font-DMregular text-md md:text-2xl max-w-xs md:max-w-3xl mx-auto leading-snug">
           A design engineer making internet things that actually slap
           strategy first, pixels second, vibes always.
-          <br className='md:hidden'/>need a launch-ready identity or a scroll-stopping landing? i’m your guy.
+          need a launch-ready identity or a scroll-stopping landing? <br className='md:hidden'/><span className='font-Epiitalic font-medium'> i’m your guy.</span>
         </p>
       </div>
     </section>

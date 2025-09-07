@@ -9,7 +9,7 @@ import React, { useEffect, useRef, useState } from "react";
  * - Micro velocity clamp + exact floor snap
  * - Keeps previous scroll + footer behavior
  */
-export default function Footer() {
+export default function Footsmiley() {
   const BG = "#F0EBE6";
 
   const sectionRef = useRef(null);

@@ -54,9 +54,10 @@ export default function GetInTouch() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 md:gap-10 mt-8 md:mt-12 lg:gap-14">
               {/* Left: get in touch */}
               <div className="lg:col-span-6 text-center md:text-left">
-                <p className="hidden md:block text-left text-base md:text-lg text-neutral-600 mb-2">let's make some good shit</p>
+                <p className="hidden md:block text-left text-base md:text-lg text-neutral-600 mb-1">let's make some good shit</p>
                 
                 <Effect title="contact.karan131@gmail.com" link="mailto:contact.karan131@gmail.com" textClass="block text-[5vw] sm:text-[6vw] lg:text-[2rem] text-neutral-900 font-DMsemi tracking-tight hover:opacity-90" />
+
               </div>
 
               {/* Right: link columns */}
