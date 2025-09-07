@@ -119,7 +119,7 @@ export default function Header({
 
           {/* Mobile CTA */}
           <h2 className="hdr-cta md:hidden text-sm md:text-lg nav-hover-btn font-DMregular group">
-            <Effect title="Book a Call" link="mailto:contact.karan131@gmail.com" />
+            <Effect title="Book a Call" link="https://cal.com/karan-ax9sdr" />
           </h2>
 
           {/* Desktop nav */}

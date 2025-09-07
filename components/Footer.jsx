@@ -51,7 +51,7 @@ export default function GetInTouch() {
         </div>
 
         {/* 3-column lists */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 md:gap-10 mt-8 md:mt-12 lg:gap-14">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 md:gap-10 mt-8 md:mt-12 lg:gap-14">
               {/* Left: get in touch */}
               <div className="lg:col-span-6 text-center md:text-left">
                 <p className="hidden md:block text-left text-base md:text-lg text-neutral-600 mb-1">let's make some good shit</p>
@@ -62,8 +62,8 @@ export default function GetInTouch() {
 
               {/* Right: link columns */}
               <nav className="lg:col-span-6">
-                <div className="grid grid-cols-2 md:grid-cols-3 px-4  gap-x-10 gap-y-6 text-base md:text-lg leading-7">
-                  <ul className="md:space-y-1 font-DMregular">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-6 text-base md:text-lg leading-7">
+                  <ul className="md:space-y-1 font-DMsemi text-center md:text-left md:font-DMregular">
                     <li>
                       <Deffect title="Home" link="#home" />
                     </li>
@@ -79,7 +79,7 @@ export default function GetInTouch() {
                     
                   </ul>
 
-                  <ul className="text-right md:text-left md:space-y-1 font-DMregular">
+                  <ul className="text-center md:space-y-1 font-DMsemi md:text-left md:font-DMregular">
                     <li>
                       <Effect title="Instagram" link="https://www.instagram.com/bhati_.01?igsh=Z3VyZjlpYjh5Znc2" />
                     </li>
@@ -96,7 +96,7 @@ export default function GetInTouch() {
                     
                   </ul>
 
-                  <ul className="hidden md:block md:space-y-1 font-DMregular">
+                  <ul className="hidden md:block md:space-y-1 font-DMsemi md:font-DMregular">
                     <li>
                       <Effect title="+91 7225928721" link="tel:+91 7225928721" />
                     </li>
@@ -110,8 +110,8 @@ export default function GetInTouch() {
             </div>
 
         {/* Bottom row: Copyright & Local time */}
-        <div className="relative z-10 mt-16 md:mt-12 pb-4 sm:pb-8">
-          <div className="flex gap-2 md:gap-0 items-start md:items-end justify-between">
+        <div className="relative z-10 mt-12 md:mt-12 pb-8 sm:pb-8">
+          <div className="flex flex-col md:flex-row gap-2 md:gap-0 items-center md:items-end justify-between">
             {/* Copyright */} 
             <div className="select-none">
               <p className="text-[16px] sm:text-[16px] text-black/60 font-DMsemi leading-none">
