@@ -166,7 +166,7 @@ export default function WorkSection() {
                 </div>
 
                 {/* Seamless marquee A (leftward) */}
-                <MarqueeRow tags={TAGS_A} pxPerSec={30} />
+                <MarqueeRow tags={TAGS_A} reverse pxPerSec={30} />
               </div>
             </div>
           </article>

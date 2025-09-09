@@ -164,7 +164,7 @@ const Hero = () => {
             </h1>
 
             <p className="mt-3 text-neutral-900 max-w-[100vw] text-md leading-tight">
-              Not just makers. Campaign creators. Visual disruptors. Not just makers. Campaign creators. Visual disruptors.
+              I help growing brands and startups gain an unfair advantage through premium, results driven websites.
             </p>
             <div className="mt-3 flex items-center justify-between">
               <div className="group inline-block text-sm sm:text-base font-medium">
